@@ -1,0 +1,21 @@
+opencti:
+  url: 'http://localhost:4000'
+  token: '815dd7b7-1b96-4cb1-9b0e-27d9a3d88fdb'
+
+connector:
+  id: 'd670b786-f98c-433f-82d6-5e453c102ad6'
+  type: 'EXTERNAL_IMPORT'
+  name: 'AlienVault'
+  scope: 'alienvault'
+  confidence_level: 3
+  update_existing_data: false
+  log_level: 'info'
+
+alienvault:
+  base_url: 'https://otx.alienvault.com'
+  api_key: '046efd9268661e0ac97bd6f0b4cb238ec3dbc869cf26ccafdf17ed3927fbf5c4'
+  tlp: 'White'
+  pulse_start_timestamp: '2020-01-23T00:00:00'  # ISO 8601
+  report_status: 'New'                          # New, In progress, Analyzed and Closed
+  guess_malware: false                          # Use tags to guess malware
+  interval_sec: 10800                           # Seconds

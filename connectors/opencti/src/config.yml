@@ -1,0 +1,17 @@
+opencti:
+  url: 'http://localhost:4000'
+  token: '815dd7b7-1b96-4cb1-9b0e-27d9a3d88fdb'
+
+connector:
+  id: 'f79eafd7-e382-47e7-bf44-df2618c28f48'
+  type: 'EXTERNAL_IMPORT'
+  name: 'OpenCTI'
+  scope: 'identity,sector,region,country,city'
+  confidence_level: 5
+  update_existing_data: True
+  log_level: 'info'
+
+config:
+  sectors_file_url: 'https://raw.githubusercontent.com/OpenCTI-Platform/datasets/master/data/sectors.json'
+  geography_file_url: 'https://raw.githubusercontent.com/OpenCTI-Platform/datasets/master/data/geography.json'
+  interval: 3 # Days

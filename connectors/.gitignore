@@ -5,5 +5,5 @@ __pycache__
 *.log
 *.iml
 test
-config.yml
+#config.yml
 docker-compose-test.yml
