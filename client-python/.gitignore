@@ -1,0 +1,13 @@
+config.yml
+__pycache__
+exports
+build
+dist
+pycti.egg-info
+logs
+test.py
+.idea
+.vscode
+*.iml
+examples/*.json
+examples/*.pdf
