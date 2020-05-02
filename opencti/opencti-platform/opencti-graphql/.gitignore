@@ -3,7 +3,7 @@
 build
 dist
 node_modules
-#public
+public
 #config/development.json
 #config/production.json
 config/test.json

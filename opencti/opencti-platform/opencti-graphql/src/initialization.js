@@ -74,7 +74,7 @@ export const CAPABILITIES = [
   },
   {
     name: 'CONNECTORAPI',
-    ordering: 4000,
+    ordering: 80,
     description: 'Connectors API usage: register, ping, export push ...',
   },
 ];

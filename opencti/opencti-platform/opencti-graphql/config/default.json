@@ -1,6 +1,6 @@
 {
   "app": {
-    "port": 4000,
+    "port": 80,
     "logs": "./logs",
     "logs_level": "info",
     "cookie_secure": false,
