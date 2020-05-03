@@ -1,11 +1,12 @@
 {
   "app": {
-    "port": 80,
+    "port": 4000,
     "logs": "./logs",
     "logs_level": "info",
     "cookie_secure": false,
     "base_path" : "",
     "platform_demo": false,
+    "performance_logger": false,
     "admin": {
       "email": "admin@opencti.io",
       "password": "ChangeMe",
