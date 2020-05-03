@@ -18,4 +18,4 @@ alienvault:
   pulse_start_timestamp: '2020-01-23T00:00:00'  # ISO 8601
   report_status: 'New'                          # New, In progress, Analyzed and Closed
   guess_malware: false                          # Use tags to guess malware
-  interval_sec: 10800                           # Seconds
+  interval_sec: 21600                           # Seconds
