@@ -228,6 +228,10 @@ class Worker:
                         except:
                             logging.info('Unable to kill the thread for queue '
                                          + thread + ', an operation is running, keep trying...')
+
+                #Create rules file here
+                #create-rules.py
+
                 time.sleep(60)
             except KeyboardInterrupt:
                 # Graceful stop
