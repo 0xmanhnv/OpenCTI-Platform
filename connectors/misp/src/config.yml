@@ -1,0 +1,22 @@
+opencti:
+  url: 'http://localhost:80'
+  token: '815dd7b7-1b96-4cb1-9b0e-27d9a3d88fdb'
+
+connector:
+  id: 'c852ff5e-7588-4579-97e7-cbede087b4e7'
+  type: 'EXTERNAL_IMPORT'
+  name: 'MISP' # Required
+  scope: 'misp'
+  confidence_level: 3
+  update_existing_data: False
+  log_level: 'info'
+
+misp:
+  url: 'https://40.88.126.8' # Required
+  key: 'lHny9AnWD2XzBEaCIWOlmf1mpPECTpe7tVYz4Vyv' # Required
+  ssl_verify: True # Required
+  create_reports: True # Required, create report for MISP event
+  report_class: 'MISP event' # Optional, report_class if creating report for event
+  import_from_date: '2010-01-01' # Optional, import all event from this date
+  import_tags: 'opencti:import,type:osint' # Optional, list of tags used for import events
+  interval: 1 # Required, in minutes
